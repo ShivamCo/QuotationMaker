@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
   },
-  logo: { height: "100%", width: "auto", padding: 5 },
+  logo: { height: "auto", width: "25%", padding: 5 },
   normalText: { fontSize: 12, fontFamily: "Poppins" },
   table: {
     marginTop: 10,
@@ -90,14 +90,15 @@ const styles = StyleSheet.create({
   },
   footerContainer: {
     position: "relative",
-    bottom: 0,
+    // bottom: 0,
     width: "100%",
     marginTop: "auto", // Ensures the footer is pushed to the bottom of the page
   },
   totalsSection: {
     marginTop: 20,
-    alignContent: "flex-start",
-    alignSelf: "flex-end",
+    
+    alignContent: "flex",
+    alignSelf: "flex-start",
     width: "50%",
     borderTop: "1 solid #000",
     paddingTop: 10,
